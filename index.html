@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -54,9 +54,9 @@
     </div>
     <div class="hero-badge">
       <span>Nut-Free</span>
-      <span>·</span>
+      <span class="badge-dot">·</span>
       <span>Vegan</span>
-      <span>·</span>
+      <span class="badge-dot">·</span>
       <span>Allergen-Free</span>
     </div>
     <div class="hero-scroll-hint">↓</div>
@@ -64,7 +64,7 @@
 
   <!-- MISSION STRIP -->
   <section class="mission-strip">
-    <div class="marquee-track">
+    <div class="mission-items">
       <span>Absolute Trust &amp; Safety</span>
       <span class="dot">✦</span>
       <span>Uncompromising Taste</span>
@@ -75,16 +75,9 @@
       <span class="dot">✦</span>
       <span>Allergen-Free Kitchen</span>
       <span class="dot">✦</span>
-      <span>Absolute Trust &amp; Safety</span>
+      <span>100% Plant-Based</span>
       <span class="dot">✦</span>
-      <span>Uncompromising Taste</span>
-      <span class="dot">✦</span>
-      <span>Locally Sourced</span>
-      <span class="dot">✦</span>
-      <span>Community-Rooted</span>
-      <span class="dot">✦</span>
-      <span>Allergen-Free Kitchen</span>
-      <span class="dot">✦</span>
+      <span>Est. 2004</span>
     </div>
   </section>
 
@@ -93,7 +86,8 @@
     <div class="container about-grid">
       <div class="about-images">
         <div class="img-stack">
-          <img class="img-main" src="https://brownsugarbakingcompany.com/wp-content/uploads/2019/01/santa-tin.jpg" alt="Brown Sugar holiday tin" onerror="this.src='https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=600'"/>
+          <img class="img-main" src="https://images.squarespace-cdn.com/content/v1/5b8e03e896e9a5e5d1a5b000/1547165423296-QMKVD0LBBZLR8ZY4YZPX/santa-tin.jpg" alt="Brown Sugar holiday tin"
+            onerror="this.src='https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80'"/>
           <div class="img-accent-box"></div>
         </div>
       </div>
@@ -107,6 +101,77 @@
           <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Years Baking</span></div>
           <div class="stat"><span class="stat-num">0</span><span class="stat-label">Big 8 Allergens</span></div>
           <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Plant-Based</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="featured section-pad" id="featured">
+    <div class="container">
+      <p class="section-label center">From Our Kitchen</p>
+      <h2 class="center">Featured Items</h2>
+      <p class="section-subhead center">Fresh-baked, allergen-free, and made with local ingredients. Available for pickup — order ahead.</p>
+
+      <div class="featured-grid">
+        <div class="featured-card">
+          <div class="featured-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=600&q=80" alt="Holiday Cookie Box" />
+            <span class="featured-tag">Best Seller</span>
+          </div>
+          <div class="featured-info">
+            <h3>Holiday Cookie Box</h3>
+            <p>A gorgeous assortment of our pinwheel, chocolate crinkle, jam thumbprint, and classic chip cookies. Perfect for gifting.</p>
+            <div class="featured-price-row">
+              <span class="featured-price">$32 – $70</span>
+              <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary small">Order</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <div class="featured-img-wrap">
+            <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&q=80" alt="Cinnamon Roll" />
+            <span class="featured-tag">Fan Favorite</span>
+          </div>
+          <div class="featured-info">
+            <h3>Cinnamon Roll</h3>
+            <p>Pillowy, perfectly spiced, and smothered in our signature plant-based cream glaze. Available individually or by the batch.</p>
+            <div class="featured-price-row">
+              <span class="featured-price">$10 – $40</span>
+              <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary small">Order</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <div class="featured-img-wrap">
+            <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80" alt="Pinwheel Cookies" />
+            <span class="featured-tag">Local Pickup</span>
+          </div>
+          <div class="featured-info">
+            <h3>Pinwheel Cookies</h3>
+            <p>Our signature swirled shortbread cookies — available in seasonal color combos. A dozen per order, local pickup only.</p>
+            <div class="featured-price-row">
+              <span class="featured-price">$25 – $32 / dozen</span>
+              <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary small">Order</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <div class="featured-img-wrap">
+            <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&q=80" alt="Strawberry Layer Cake" />
+            <span class="featured-tag">Weekly Special</span>
+          </div>
+          <div class="featured-info">
+            <h3>3-Layer Cake</h3>
+            <p>Our rotating weekly special — past flavors include strawberry cream, lemon blueberry, and chocolate ganache. Call ahead to check availability.</p>
+            <div class="featured-price-row">
+              <span class="featured-price">$65+</span>
+              <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary small">Order</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -127,41 +192,113 @@
 
       <div class="tab-content active" id="tab-retail">
         <div class="menu-grid">
-          <div class="menu-item"><span class="item-name">Bars</span><span class="item-price">$6+</span></div>
-          <div class="menu-item"><span class="item-name">Cakes</span><span class="item-price">$65+</span></div>
-          <div class="menu-item"><span class="item-name">Cake Slices</span><span class="item-price">$6+</span></div>
-          <div class="menu-item"><span class="item-name">Cookies</span><span class="item-price">$3+</span></div>
-          <div class="menu-item"><span class="item-name">Doughnuts</span><span class="item-price">$3+</span></div>
-          <div class="menu-item"><span class="item-name">Empanadas</span><span class="item-price">$4+</span></div>
-          <div class="menu-item"><span class="item-name">Focaccia</span><span class="item-price">$8+</span></div>
-          <div class="menu-item"><span class="item-name">Hand Pies</span><span class="item-price">$7+</span></div>
-          <div class="menu-item"><span class="item-name">Quiche</span><span class="item-price">$8+</span></div>
-          <div class="menu-item"><span class="item-name">Sammies</span><span class="item-price">$9+</span></div>
-          <div class="menu-item"><span class="item-name">Sweet Loaf</span><span class="item-price">$8+</span></div>
-          <div class="menu-item"><span class="item-name">Sweet Rolls</span><span class="item-price">$6+</span></div>
-          <div class="menu-item full-width"><span class="item-name">Catering</span><span class="item-price">$3+ per person</span></div>
+          <div class="menu-item">
+            <span class="item-name">Bars</span>
+            <span class="item-price">$6+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Cakes</span>
+            <span class="item-price">$65+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Cake Slices</span>
+            <span class="item-price">$6+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Cookies</span>
+            <span class="item-price">$3+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Doughnuts</span>
+            <span class="item-price">$3+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Empanadas</span>
+            <span class="item-price">$4+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Focaccia</span>
+            <span class="item-price">$8+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Hand Pies</span>
+            <span class="item-price">$7+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Quiche</span>
+            <span class="item-price">$8+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sammies</span>
+            <span class="item-price">$9+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sweet Loaf</span>
+            <span class="item-price">$8+</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sweet Rolls</span>
+            <span class="item-price">$6+</span>
+          </div>
+          <div class="menu-item full-width">
+            <span class="item-name">Catering</span>
+            <span class="item-price">$3+ per person</span>
+          </div>
         </div>
       </div>
 
       <div class="tab-content" id="tab-wholesale">
         <div class="menu-grid">
-          <div class="menu-item"><span class="item-name">Bars</span><span class="item-price">Wholesale Pricing</span></div>
-          <div class="menu-item"><span class="item-name">Brownies</span><span class="item-price">Wholesale Pricing</span></div>
-          <div class="menu-item"><span class="item-name">Cakes</span><span class="item-price">Wholesale Pricing</span></div>
-          <div class="menu-item"><span class="item-name">Cookies</span><span class="item-price">Wholesale Pricing</span></div>
-          <div class="menu-item"><span class="item-name">Hand Pies</span><span class="item-price">Wholesale Pricing</span></div>
-          <div class="menu-item"><span class="item-name">Quiche</span><span class="item-price">Wholesale Pricing</span></div>
-          <div class="menu-item"><span class="item-name">Sweet Loaf</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item">
+            <span class="item-name">Bars</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Brownies</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Cakes</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Cookies</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Hand Pies</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Quiche</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sweet Loaf</span>
+            <span class="item-price">Wholesale Pricing</span>
+          </div>
         </div>
         <p class="menu-note">All wholesale items are single-serve packaged sweet and savory treats. <a href="#order">Contact us</a> for B2B inquiries.</p>
       </div>
 
       <div class="tab-content" id="tab-foodservice">
         <div class="menu-grid">
-          <div class="menu-item"><span class="item-name">Brownie Sheet</span><span class="item-price">Bulk Order</span></div>
-          <div class="menu-item"><span class="item-name">Cookie Dough</span><span class="item-price">Bulk Order</span></div>
-          <div class="menu-item"><span class="item-name">Empanada (Frozen)</span><span class="item-price">Bulk Order</span></div>
-          <div class="menu-item"><span class="item-name">Pie Dough</span><span class="item-price">Bulk Order</span></div>
+          <div class="menu-item">
+            <span class="item-name">Brownie Sheet</span>
+            <span class="item-price">Bulk Order</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Cookie Dough</span>
+            <span class="item-price">Bulk Order</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Empanada (Frozen)</span>
+            <span class="item-price">Bulk Order</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Pie Dough</span>
+            <span class="item-price">Bulk Order</span>
+          </div>
         </div>
         <p class="menu-note">Interested in adding our products to your food service program? <a href="#order">Reach out</a> and let's talk.</p>
       </div>
@@ -176,22 +313,25 @@
   <section class="gallery-strip">
     <div class="gallery-scroll">
       <div class="gallery-item">
-        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2019/01/santa-tin.jpg" alt="Holiday tin assortment" onerror="this.parentElement.style.display='none'"/>
+        <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=500&q=80" alt="Cookie assortment" />
       </div>
       <div class="gallery-item tall">
-        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/berry-tart.jpg" alt="Berry tart" onerror="this.parentElement.style.display='none'"/>
+        <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=500&q=80" alt="Strawberry cake" />
       </div>
       <div class="gallery-item">
-        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/rainbow-cake.jpg" alt="Custom rainbow cake" onerror="this.parentElement.style.display='none'"/>
+        <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=500&q=80" alt="Cinnamon roll" />
       </div>
       <div class="gallery-item tall">
-        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/quiche.jpg" alt="Savory quiche" onerror="this.parentElement.style.display='none'"/>
+        <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80" alt="Pinwheel cookies" />
       </div>
       <div class="gallery-item">
-        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/birthday-cake.jpg" alt="Birthday cake" onerror="this.parentElement.style.display='none'"/>
+        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500&q=80" alt="Chocolate chip cookie" />
       </div>
-      <div class="gallery-item" id="gal-vegan">
-        <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400&q=80" alt="Vegan cupcakes" />
+      <div class="gallery-item tall">
+        <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80" alt="Layered brownie bars" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&q=80" alt="Pastries" />
       </div>
     </div>
   </section>
@@ -288,14 +428,14 @@
           <span class="visit-icon">📞</span>
           <div>
             <strong>Phone</strong>
-            <p><a href="tel:2065560749">(206) 556-0749</a></p>
+            <p class="phone-plain">(206) 556-0749</p>
           </div>
         </div>
         <div class="visit-detail">
           <span class="visit-icon">✉️</span>
           <div>
             <strong>Email</strong>
-            <p><a href="mailto:brownsugarbaking@live.com">brownsugarbaking@live.com</a></p>
+            <p><a href="mailto:brownsugarbaking@live.com" class="email-link">brownsugarbaking@live.com</a></p>
           </div>
         </div>
         <div class="visit-note">
@@ -336,7 +476,7 @@
       <p>Place your order online for pickup, or call us to discuss custom orders, wholesale, catering, and consulting.</p>
       <div class="order-buttons">
         <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary large">Order Online</a>
-        <a href="tel:2065560749" class="btn-ghost large">Call (206) 556-0749</a>
+        <span class="btn-ghost large phone-display">Call (206) 556-0749</span>
       </div>
       <p class="gofundme-link">Support our growth: <a href="https://gofund.me/e3084299c" target="_blank">GoFundMe Campaign →</a></p>
     </div>
@@ -368,13 +508,11 @@
   </footer>
 
   <script>
-    // Navbar scroll effect
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
       navbar.classList.toggle('scrolled', window.scrollY > 60);
     });
 
-    // Hamburger menu
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobileMenu');
     hamburger.addEventListener('click', () => {
@@ -388,7 +526,6 @@
       });
     });
 
-    // Menu tabs
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -398,11 +535,10 @@
       });
     });
 
-    // Scroll reveal
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('revealed'); });
     }, { threshold: 0.1 });
-    document.querySelectorAll('.service-card, .testimonial-card, .menu-item, .stat, .visit-detail').forEach(el => {
+    document.querySelectorAll('.service-card, .testimonial-card, .menu-item, .stat, .visit-detail, .featured-card').forEach(el => {
       el.classList.add('reveal');
       observer.observe(el);
     });
